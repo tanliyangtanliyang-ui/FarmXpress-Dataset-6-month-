@@ -1,0 +1,36 @@
+user_id,role,display_name,farmer_id,buyer_id,hub_id,driver_id,cooperative_id,token_hash,active,data_origin
+USR-001,admin,Demo Admin,,,,,,4b2ced3d8f4084a25ac02fcb144e101610b345af051a80ac7762c820058405dc,1,synthetic_seed
+USR-002,hub_operator,Hub Operator HUB-001,,,HUB-001,,,1acf91236748af148e665a6939146ac690af9fd26a54477fc07792f959bef01d,1,synthetic_seed
+USR-003,hub_operator,Hub Operator HUB-002,,,HUB-002,,,63ffd3a7386fd06c6e36e8e4e0984d52a0efd1bbbf63192b891f831a4d04f8ea,1,synthetic_seed
+USR-004,farmer,Ahmad Ismail,FRM-001,,,,,672730eef5885861679792467aefe782107bd3edc48cdfe5ec04b25b7b08ee60,1,synthetic_seed
+USR-005,farmer,Lim Wei Chen,FRM-002,,,,,6a73ab77b927c77687f828ee1ccae79531817cd3edb8097b6abc140c5ec927fa,1,synthetic_seed
+USR-006,farmer,Nur Aisyah,FRM-003,,,,,75f520cce0690c1d2c25a297ba98937ea5d3c5fe0c62fc204ea27d5fd73844aa,1,synthetic_seed
+USR-007,farmer,Rashid Osman,FRM-004,,,,,c8ce9690d7a913be48fe4a4aff79b121a7a82c27af4619cf043ec6e832fa0161,1,synthetic_seed
+USR-008,farmer,Tan Mei Ling,FRM-005,,,,,5ccd52944bdf5a619a37e8e2f38481dda4ea6e48b60188e3d43230b5b1c1cd86,1,synthetic_seed
+USR-009,farmer,Hafiz Rahman,FRM-006,,,,,39bcafd569c7e2227a5877e57aee747808f168391c25478ad37815f38eb7f941,1,synthetic_seed
+USR-010,farmer,Kumar Selvam,FRM-007,,,,,136444373e6be75b306e609fd28609065f2762b604769242e9b1661e4e3f5f96,1,synthetic_seed
+USR-011,farmer,Siti Zulaikha,FRM-008,,,,,3caf2c383b28ea88f711dfba5def795bee8c1b47fa2105a5fe4c55ac2bfc71ec,1,synthetic_seed
+USR-012,farmer,Wong Kah Hou,FRM-009,,,,,b2b4a165093d34c4996781b033fd12e59e3ba430dde4cdb5d7720cc6084c18c4,1,synthetic_seed
+USR-013,farmer,Zainal Abidin,FRM-010,,,,,b2ce9a90cc99c7bc7ec595ef20b1de4b5fdd9d59f8f5cee494898e486d1f252d,1,synthetic_seed
+USR-014,farmer,Lee Chong Wei,FRM-011,,,,,6e5a120c43d48d5394d2cd9eac7b2c2ab18e43a7dcf3ba61e3d73b8e8160a884,1,synthetic_seed
+USR-015,farmer,Farah Nabila,FRM-012,,,,,7059593a80eb1e3d1d60896ac28fe0b6fdcf271c247784fd96119d86b4edc8c6,1,synthetic_seed
+USR-016,buyer,Selayang Fresh Market,,BYR-001,,,,dfec4aa011817f637a1fcd1ee8bc6f11e08271c3e061e7a913e93bb1b9bcbade,1,synthetic_seed
+USR-017,buyer,Klang Valley Grocers,,BYR-002,,,,59b91ef89b95e4489c110a11fd0f914ceb3c6e3d98d1b19e66a6fdab5326e0e3,1,synthetic_seed
+USR-018,buyer,Penang Produce Retail,,BYR-003,,,,78f4e9d00aec1f98130a9f806185415c781b1f67f419b1752cded178395bdc07,1,synthetic_seed
+USR-019,buyer,Ipoh Wholesale Market,,BYR-004,,,,45164b03a5ac8f7cd67d48d1450bc87d6e5546159260b37d260cef0c60485dfe,1,synthetic_seed
+USR-020,buyer,Johor Bahru Supermart,,BYR-005,,,,e30aca329172d5b9e4920bdf674d1f84033c0c6c95e3e87c0cff273f2392f5da,1,synthetic_seed
+USR-021,buyer,Shah Alam Restaurant Group,,BYR-006,,,,2ed22e21197a83ee4f119b6a35f7ed9398081ea8af25be42910e0a9f350ddd02,1,synthetic_seed
+USR-022,buyer,Georgetown Hotel Supplies,,BYR-007,,,,7120ea565c0a69d1accf126ee15a64b58a77499ba0f049a023f28f339bb69f0e,1,synthetic_seed
+USR-023,buyer,Kuantan Fresh Mart,,BYR-008,,,,9edf113b24d684ab32dc75a8ee44428628431f72a695b7cda5bbef79a31ed1d8,1,synthetic_seed
+USR-024,driver,Ahmad Faizal,,,,DRV-001,,c40fdc110af93d8ddc4589c35eb66ae1e7a954ad872410a144d18187750146a2,1,synthetic_seed
+USR-025,driver,Fatimah Zainal,,,,DRV-002,,77d591984b05b7216185fb90ae41365d2cf1db6adaa9410aadca7e27f2e97801,1,synthetic_seed
+USR-026,driver,Suresh Kumar,,,,DRV-003,,7bb269cc04926ef3f03f17947aed398ffab0c88dcfd2f9c8a50c8047e03a96aa,1,synthetic_seed
+USR-027,driver,Mohd Hakim,,,,DRV-004,,d3b2e73346634fded7ed76ddc85351b5fc7ea5a3a18a98dbc7ca7b0e003477fc,1,synthetic_seed
+USR-028,driver,Chong Wei Han,,,,DRV-005,,aa2596be6837b57a6cebb05b1881730100769ca497264ae0703366da95dfc2dc,1,synthetic_seed
+USR-029,driver,Azman Yusof,,,,DRV-006,,7fff2b6a8028bd28dec4c1485b9f6da86bb17198527512586edef4a554b01d9d,1,synthetic_seed
+USR-030,driver,Ramesh Pillai,,,,DRV-007,,92c38fc5bfd348b1c7ccdc067ad186b39c91477344b13b4c15e66744a082a344,1,synthetic_seed
+USR-031,driver,Muthu Raman,,,,DRV-008,,f10ceb62d85dbbe2a5d0bbc348cd121ecf15178c21d2cec37847349e5eac8cfe,1,synthetic_seed
+USR-032,cooperative_manager,Kedah Harvest Cooperative Manager,,,,,COP-001,82a1572e9bb77c079c0b0be04b99a8f965adb943fb641c390fa060c91072e6ce,1,synthetic_seed
+USR-033,cooperative_manager,Cameron Growers Cooperative Manager,,,,,COP-002,1f2cf2038dc5fea2b05fa8d09d8786916e3564cf515bc218d7c1c0ab8692f6b5,1,synthetic_seed
+USR-034,cooperative_manager,Johor Valley Growers Cooperative Manager,,,,,COP-003,7ad0836bb0c1bb4ac8bd141c66b23388da4745d557e6ee34f36a272b2c9f8c00,1,synthetic_seed
+USR-035,government_analyst,Demo Government Analyst,,,,,,9c48459b54850c3b29e39268f111b548156202cb4e843953a485326fc04aca0f,1,synthetic_seed

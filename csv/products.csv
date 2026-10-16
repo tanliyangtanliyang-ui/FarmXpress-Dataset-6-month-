@@ -1,0 +1,9 @@
+product_id,name,storage_class,temp_min_c,temp_max_c,shelf_life_days,reference_price_sen_per_kg,data_origin
+PRD-LETTUCE,Lettuce,chilled,2,6,6,450,synthetic_seed
+PRD-CABBAGE,Cabbage,chilled,1,5,14,220,synthetic_seed
+PRD-TOMATO,Tomato,cool,8,13,10,380,synthetic_seed
+PRD-CHILI,Bird's Eye Chili,cool,7,10,12,1350,synthetic_seed
+PRD-CUCUMBER,Cucumber,cool,8,12,10,260,synthetic_seed
+PRD-LONGBEAN,Long Bean,cool,6,10,7,340,synthetic_seed
+PRD-CARROT,Carrot,chilled,1,4,21,300,synthetic_seed
+PRD-SPINACH,Spinach,chilled,2,6,5,520,synthetic_seed

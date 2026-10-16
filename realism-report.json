@@ -1,0 +1,382 @@
+{
+  "label": "SYNTHETIC DEMONSTRATION DATA",
+  "seed": 20261015,
+  "dataset_version": "2.0.0",
+  "content_sha256": "1dab2b69e9c6a4676bb78f211e6b6a09bf3ac548a4523bcc5d03d7959e895bae",
+  "checks": [
+    {
+      "name": "row counts equal metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "file SHA-256 equal metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all identifiers match documented patterns",
+      "ok": true,
+      "detail": "0 bad"
+    },
+    {
+      "name": "primary keys unique",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no orphan foreign keys",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every row labelled synthetic_seed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "all timestamps inside the six-month window",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every month Jan-Jun has batches, orders and deliveries",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ledger ids are chronological",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no negative on-hand / reserved / available at any point",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hub capacity never exceeded at receipt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "batch quantity conservation: received = on_hand + dispatched + qc_reject + spoilage - return",
+      "ok": true,
+      "detail": "0 batches"
+    },
+    {
+      "name": "no reservations left open at window end",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "order items: allocated <= requested, delivered+rejected <= allocated, allocations sum to item",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "allocations match product and hub of the order",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "allocations never exceed received + returned kg of a batch (no overselling; ledger replay above proves available >= 0 at every instant)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "order status consistent with item quantities",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "no open (non-terminal) orders at window end",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "shipment lines equal allocation quantities, each allocation on one shipment",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "shipments: refrigerated vehicle, load <= capacity, load = lines, times ordered, terminal status",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no vehicle double-booking (planned and actual windows)",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "no driver double-booking",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "products sharing a shipment have a compatible temperature range (width >= 2 C)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "exactly one delivery per stop, statuses agree, stop sequence contiguous",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "delivered + rejected <= loaded; on_time matches deadline comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "time order harvest <= receipt <= dispatch <= delivery",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "observations: sensor mounted on shipment vehicle, inside shipment window, valid quality",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "no duplicate (sensor, time) observations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "alerts linked to the correct shipment and observation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "events chronological with valid JSON payloads",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every required failure and recovery type occurs at least once",
+      "ok": true,
+      "detail": "missing: "
+    },
+    {
+      "name": "hard bound: on-time rate not artificially perfect (< 95%)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hard bound: fill rate < 100% and rejection > 0",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "realism": [
+    {
+      "metric": "Batches registered",
+      "value": 1900,
+      "target": [
+        1700,
+        2400
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Orders placed",
+      "value": 1643,
+      "target": [
+        1400,
+        1900
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Order items",
+      "value": 3713,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Shipments",
+      "value": 1217,
+      "target": [
+        900,
+        1300
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Stops / deliveries",
+      "value": 1581,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Sensor observations",
+      "value": 41996,
+      "target": [
+        40000,
+        70000
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "On-time delivery rate (K01)",
+      "value": 0.9159,
+      "target": [
+        0.82,
+        0.93
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Fill rate (K02)",
+      "value": 0.878,
+      "target": [
+        0.84,
+        0.94
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "OTIF (K03)",
+      "value": 0.685,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Rejection rate of received kg, QC + buyer (K04)",
+      "value": 0.0234,
+      "target": [
+        0.02,
+        0.05
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Order cancellation rate (K05)",
+      "value": 0.0219,
+      "target": [
+        0.02,
+        0.06
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Stock-out item rate (K06)",
+      "value": 0.1138,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Median order cycle time h (K07)",
+      "value": 29.4,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "P90 order cycle time h (K07)",
+      "value": 47.9667,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Cold-chain compliance of valid readings (K09)",
+      "value": 0.9925,
+      "target": [
+        0.97,
+        0.9995
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Shipments with temperature excursion alert (K09)",
+      "value": 0.046,
+      "target": [
+        0.03,
+        0.06
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Sensor completeness (K10)",
+      "value": 0.9892,
+      "target": [
+        0.96,
+        0.995
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Mean hub utilisation (K11)",
+      "value": 0.306,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Max daily hub utilisation (K11)",
+      "value": 0.5331,
+      "target": [
+        0,
+        1
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Spoilage + expiry rate of received kg (K13)",
+      "value": 0.0747,
+      "target": [
+        0.04,
+        0.1
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Vehicle load factor (K14)",
+      "value": 0.2074,
+      "target": [
+        0.15,
+        0.55
+      ],
+      "status": "in-range"
+    },
+    {
+      "metric": "Alerts per 100 shipments (all kinds)",
+      "value": 18.3237,
+      "target": null,
+      "status": "info"
+    },
+    {
+      "metric": "Share of batches with commitment link",
+      "value": 0.2905,
+      "target": null,
+      "status": "info"
+    }
+  ],
+  "coverage": {
+    "cancelled orders": 36,
+    "backordered at placement": 730,
+    "backorder fulfilled later (recovery)": 367,
+    "partially allocated orders": 370,
+    "failed orders (stock-out)": 44,
+    "QC failed batches": 10,
+    "QC partial rejects": 92,
+    "buyer-rejected stops": 53,
+    "partial deliveries": 67,
+    "failed deliveries": 18,
+    "late deliveries": 133,
+    "breakdown incidents": 18,
+    "road closures": 10,
+    "reefer faults": 12,
+    "recovery events": 40,
+    "rescheduled shipments": 121,
+    "sensor gap alerts": 44,
+    "temperature excursion alerts": 57,
+    "delay alerts": 112,
+    "spoilage movements": 231,
+    "returns to stock": 153,
+    "expired batches": 229,
+    "deferred receipts (hub capacity)": 0,
+    "suspect sensor readings": 115,
+    "GPS gaps": 219
+  }
+}

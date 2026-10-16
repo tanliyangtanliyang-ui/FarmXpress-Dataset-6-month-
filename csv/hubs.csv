@@ -1,0 +1,3 @@
+hub_id,name,state,capacity_kg,lat,lng,data_origin
+HUB-001,Cameron Highlands Consolidation Hub,Pahang,12000,4.4725,101.38,synthetic_seed
+HUB-002,Klang Valley Consolidation Hub,Selangor,15000,3.0449,101.4455,synthetic_seed

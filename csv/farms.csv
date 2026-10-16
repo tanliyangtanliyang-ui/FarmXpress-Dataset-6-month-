@@ -1,0 +1,15 @@
+farm_id,farmer_id,name,region,state,lat,lng,data_origin
+FRP-001,FRM-001,Cameron Fresh Farm,Cameron Highlands,Pahang,4.47,101.375,synthetic_seed
+FRP-002,FRM-002,Tapah Green Produce,Tapah,Perak,4.199,101.259,synthetic_seed
+FRP-003,FRM-003,Kedah Harvest Farm,Sungai Petani,Kedah,5.647,100.487,synthetic_seed
+FRP-004,FRM-004,Johor Valley Growers,Kluang,Johor,2.03,103.318,synthetic_seed
+FRP-005,FRM-005,Raub Highland Farm,Raub,Pahang,3.793,101.857,synthetic_seed
+FRP-006,FRM-006,Kulim Agro Plot,Kulim,Kedah,5.365,100.561,synthetic_seed
+FRP-007,FRM-007,Segamat Greens,Segamat,Johor,2.515,102.815,synthetic_seed
+FRP-008,FRM-008,Kuala Selangor Organics,Kuala Selangor,Selangor,3.34,101.25,synthetic_seed
+FRP-009,FRM-009,Sepang Fresh,Sepang,Selangor,2.69,101.75,synthetic_seed
+FRP-010,FRM-010,Bentong Valley Farm,Bentong,Pahang,3.523,101.909,synthetic_seed
+FRP-011,FRM-011,Batu Pahat Growers,Batu Pahat,Johor,1.85,102.933,synthetic_seed
+FRP-012,FRM-012,Kinta Valley Farm,Ipoh,Perak,4.5975,101.09,synthetic_seed
+FRP-013,FRM-001,Brinchang Terrace Plot,Brinchang,Pahang,4.495,101.386,synthetic_seed
+FRP-014,FRM-004,Kluang North Plot,Kluang,Johor,2.07,103.31,synthetic_seed

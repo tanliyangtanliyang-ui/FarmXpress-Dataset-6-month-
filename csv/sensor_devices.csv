@@ -1,0 +1,17 @@
+sensor_id,kind,vehicle_id,data_origin
+SNS-001,temperature,VEH-001,synthetic_seed
+SNS-002,temperature,VEH-002,synthetic_seed
+SNS-003,temperature,VEH-003,synthetic_seed
+SNS-004,temperature,VEH-004,synthetic_seed
+SNS-005,temperature,VEH-005,synthetic_seed
+SNS-006,temperature,VEH-006,synthetic_seed
+SNS-007,temperature,VEH-007,synthetic_seed
+SNS-008,temperature,VEH-008,synthetic_seed
+SNS-009,gps,VEH-001,synthetic_seed
+SNS-010,gps,VEH-002,synthetic_seed
+SNS-011,gps,VEH-003,synthetic_seed
+SNS-012,gps,VEH-004,synthetic_seed
+SNS-013,gps,VEH-005,synthetic_seed
+SNS-014,gps,VEH-006,synthetic_seed
+SNS-015,gps,VEH-007,synthetic_seed
+SNS-016,gps,VEH-008,synthetic_seed

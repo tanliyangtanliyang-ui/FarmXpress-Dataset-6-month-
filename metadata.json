@@ -1,0 +1,157 @@
+{
+  "label": "SYNTHETIC DEMONSTRATION DATA",
+  "dataset_version": "2.0.0",
+  "generator_version": "2.0.0",
+  "seed": 20261015,
+  "window": {
+    "start": "2026-01-01T00:00:00.000Z",
+    "end": "2026-06-30T23:59:59.000Z"
+  },
+  "generated_at": "2026-07-01T00:00:00.000Z",
+  "purpose": "FarmXpress local exhibition demonstration",
+  "not_real_data_notice": "Synthetic records. Not real Malaysian agricultural, logistics, weather or sensor measurements.",
+  "counts": {
+    "users": 35,
+    "role_permissions": 30,
+    "cooperatives": 3,
+    "farmers": 12,
+    "farms": 14,
+    "products": 8,
+    "hubs": 2,
+    "buyers": 8,
+    "vehicles": 8,
+    "drivers": 8,
+    "sensor_devices": 16,
+    "weather_inputs": 362,
+    "supply_commitments": 421,
+    "batches": 1900,
+    "qc_inspections": 1900,
+    "inventory_movements": 12468,
+    "orders": 1643,
+    "order_items": 3713,
+    "allocations": 5041,
+    "routes": 1217,
+    "shipments": 1217,
+    "shipment_stops": 1581,
+    "shipment_lines": 4931,
+    "sensor_observations": 41996,
+    "alerts": 223,
+    "deliveries": 1581,
+    "events": 22984
+  },
+  "content_sha256": "1dab2b69e9c6a4676bb78f211e6b6a09bf3ac548a4523bcc5d03d7959e895bae",
+  "files": {
+    "csv/users.csv": {
+      "bytes": 4592,
+      "sha256": "7f8cc02d4da84dfdd9b3ece74ba372053dbd6f822d2d18849cab20c2da861967"
+    },
+    "csv/role_permissions.csv": {
+      "bytes": 1402,
+      "sha256": "8342d8e0aa9f38319c274e75605309d1c0b758224d6e88a5ad6dc1cd0d92d143"
+    },
+    "csv/cooperatives.csv": {
+      "bytes": 242,
+      "sha256": "6b835b069671d74586fb619f95a5266bd3a8cb4836f82e33fbf4d83def65650a"
+    },
+    "csv/farmers.csv": {
+      "bytes": 760,
+      "sha256": "f7ca2ac535b830d252a60543877c91f496ee1861a061a056be1820fddc07c74e"
+    },
+    "csv/farms.csv": {
+      "bytes": 1162,
+      "sha256": "75452c0b0b25acd663a85b7196e7761c878db057066b92be379c494a5a7669c4"
+    },
+    "csv/products.csv": {
+      "bytes": 537,
+      "sha256": "8d62f9b1966971169fb2c04d808bdd15a18a1f6f6ee028df53e7ede5fa8dc0c9"
+    },
+    "csv/hubs.csv": {
+      "bytes": 221,
+      "sha256": "48a847fe0d9134f8d02be89996add549fe8e8d35f68f70b3646a81feb716ad8f"
+    },
+    "csv/buyers.csv": {
+      "bytes": 785,
+      "sha256": "c6b96b08bb94c3800958e9e7ed61c4923d706bc8efecf1b542ae4976d22413ef"
+    },
+    "csv/vehicles.csv": {
+      "bytes": 514,
+      "sha256": "4f850d25145068470ef8bb181c7bfd534ce0b5c5732f3aedd792d54a11156aad"
+    },
+    "csv/drivers.csv": {
+      "bytes": 421,
+      "sha256": "c77be3342320b4752f1618833b66e05585d2d81c4494c85c90bb25c2496dd5a6"
+    },
+    "csv/sensor_devices.csv": {
+      "bytes": 662,
+      "sha256": "1c6bc95882ec92394293e0d2fc3cfa2a9e6d71bc0d703f01872e6951a83ff62a"
+    },
+    "csv/weather_inputs.csv": {
+      "bytes": 16191,
+      "sha256": "43056e7e02d4700b6e7ad9b7925abc188d2112f644700148e115da003f2502d2"
+    },
+    "csv/supply_commitments.csv": {
+      "bytes": 35692,
+      "sha256": "3d420590c67736240105e9df2109fdc66155104e0ab7b9a394c44c186028cf07"
+    },
+    "csv/batches.csv": {
+      "bytes": 362192,
+      "sha256": "bef9a7cad13e11f937b8252312054b092274d50a6fa3ebd6996fd95fc22be152"
+    },
+    "csv/qc_inspections.csv": {
+      "bytes": 153671,
+      "sha256": "02a5212ec6550b8c086f22994affaa71c46ba8a0f053bdb86842a9551124652b"
+    },
+    "csv/inventory_movements.csv": {
+      "bytes": 1574878,
+      "sha256": "649376e5e6c3c82faac2719ffe504a61f2b06dd93556b48a3ba33e6148a89646"
+    },
+    "csv/orders.csv": {
+      "bytes": 220219,
+      "sha256": "971cfa682bfa8599f59141bab7a24427f838897cd281136fcbdc68068070194d"
+    },
+    "csv/order_items.csv": {
+      "bytes": 267525,
+      "sha256": "f644a933c37ea1a6187c3f59fca08a80c07f4ab0153bcddefe1868dca065e731"
+    },
+    "csv/allocations.csv": {
+      "bytes": 489900,
+      "sha256": "80b51b4692b78f5c8b90455535d578c8d4433f0d197a0eaac33f32789f2910d4"
+    },
+    "csv/routes.csv": {
+      "bytes": 101483,
+      "sha256": "3b6294dd4150adacab04a49c5aa47d3a5eb4cfa40ce9e09dff0864eee672cb2a"
+    },
+    "csv/shipments.csv": {
+      "bytes": 223884,
+      "sha256": "2f2b5978aa55ec3be83d5ff025973d06b7d20264d2e28529ac3689a0c3b64413"
+    },
+    "csv/shipment_stops.csv": {
+      "bytes": 193566,
+      "sha256": "7e6ed9958a2bf27ef2084a07b1538c10ea9f88da2e0f3fb99b8aaf21c850faf4"
+    },
+    "csv/shipment_lines.csv": {
+      "bytes": 198229,
+      "sha256": "4eddd91d8b5ef6bb5514b79c3fe6eaa80e19c50fec6bbcd84908585f0a95aec8"
+    },
+    "csv/sensor_observations.csv": {
+      "bytes": 3984318,
+      "sha256": "21bab6930efd4c26b64447f2e3efa07a9785e4a12d0ab9aedb4170881b760fc5"
+    },
+    "csv/alerts.csv": {
+      "bytes": 26531,
+      "sha256": "1efbb295d41cd44a32c2619355e8e3d6ea7bb09b6af9119b2b07fc736e44d694"
+    },
+    "csv/deliveries.csv": {
+      "bytes": 209868,
+      "sha256": "74eeabc57db51ac54202cde6ace62c2f4e3b98509539c6907363d644e213f67f"
+    },
+    "csv/events.csv": {
+      "bytes": 3551614,
+      "sha256": "05e55ecedb470d5891c5afa43becca85c0dd794f713c3a34467f446997419901"
+    },
+    "farmxpress-seed.json": {
+      "bytes": 28807046,
+      "sha256": "fb63e390ae5f14d3229b2c72abc5479b88c4997ca4eb214a25ecaef5951b588c"
+    }
+  }
+}

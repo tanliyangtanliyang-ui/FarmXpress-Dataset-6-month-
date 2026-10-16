@@ -1,0 +1,9 @@
+buyer_id,name,type,state,lat,lng,primary_hub_id,data_origin
+BYR-001,Selayang Fresh Market,Wholesale market,Selangor,3.265,101.65,HUB-002,synthetic_seed
+BYR-002,Klang Valley Grocers,Supermarket,Kuala Lumpur,3.139,101.6869,HUB-002,synthetic_seed
+BYR-003,Penang Produce Retail,Retail,Penang,5.4141,100.3288,HUB-001,synthetic_seed
+BYR-004,Ipoh Wholesale Market,Wholesale market,Perak,4.5975,101.0901,HUB-001,synthetic_seed
+BYR-005,Johor Bahru Supermart,Supermarket,Johor,1.4927,103.7414,HUB-002,synthetic_seed
+BYR-006,Shah Alam Restaurant Group,Restaurant group,Selangor,3.0738,101.5183,HUB-002,synthetic_seed
+BYR-007,Georgetown Hotel Supplies,Hotel supplier,Penang,5.4164,100.3327,HUB-001,synthetic_seed
+BYR-008,Kuantan Fresh Mart,Supermarket,Pahang,3.8077,103.326,HUB-001,synthetic_seed

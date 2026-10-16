@@ -1,0 +1,9 @@
+driver_id,name,default_vehicle_id,active,data_origin
+DRV-001,Ahmad Faizal,VEH-001,1,synthetic_seed
+DRV-002,Fatimah Zainal,VEH-002,1,synthetic_seed
+DRV-003,Suresh Kumar,VEH-003,1,synthetic_seed
+DRV-004,Mohd Hakim,VEH-004,1,synthetic_seed
+DRV-005,Chong Wei Han,VEH-005,1,synthetic_seed
+DRV-006,Azman Yusof,VEH-006,1,synthetic_seed
+DRV-007,Ramesh Pillai,VEH-007,1,synthetic_seed
+DRV-008,Muthu Raman,VEH-008,1,synthetic_seed

@@ -1,0 +1,9 @@
+vehicle_id,plate,type,capacity_kg,home_hub_id,data_origin
+VEH-001,SYN 1001,refrigerated,1200,HUB-001,synthetic_seed
+VEH-002,SYN 1002,refrigerated,2500,HUB-001,synthetic_seed
+VEH-003,SYN 1003,refrigerated,1200,HUB-001,synthetic_seed
+VEH-004,SYN 1004,standard,1000,HUB-001,synthetic_seed
+VEH-005,SYN 2005,refrigerated,2500,HUB-002,synthetic_seed
+VEH-006,SYN 2006,refrigerated,1200,HUB-002,synthetic_seed
+VEH-007,SYN 2007,refrigerated,1200,HUB-002,synthetic_seed
+VEH-008,SYN 2008,standard,1000,HUB-002,synthetic_seed

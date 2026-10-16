@@ -1,0 +1,13 @@
+farmer_id,name,cooperative_id,phone,data_origin
+FRM-001,Ahmad Ismail,COP-002,+60-00-0000-1001,synthetic_seed
+FRM-002,Lim Wei Chen,COP-002,+60-00-0000-1002,synthetic_seed
+FRM-003,Nur Aisyah,COP-001,+60-00-0000-1003,synthetic_seed
+FRM-004,Rashid Osman,COP-003,+60-00-0000-1004,synthetic_seed
+FRM-005,Tan Mei Ling,COP-002,+60-00-0000-1005,synthetic_seed
+FRM-006,Hafiz Rahman,COP-001,+60-00-0000-1006,synthetic_seed
+FRM-007,Kumar Selvam,COP-003,+60-00-0000-1007,synthetic_seed
+FRM-008,Siti Zulaikha,,+60-00-0000-1008,synthetic_seed
+FRM-009,Wong Kah Hou,,+60-00-0000-1009,synthetic_seed
+FRM-010,Zainal Abidin,COP-002,+60-00-0000-1010,synthetic_seed
+FRM-011,Lee Chong Wei,COP-003,+60-00-0000-1011,synthetic_seed
+FRM-012,Farah Nabila,,+60-00-0000-1012,synthetic_seed
